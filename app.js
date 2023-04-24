@@ -5,7 +5,7 @@ const textRoutes = require("./routes/text");
 const app = express();
 app.use(express.json());
 
-const PORT = 8000;
+const PORT = 4000;
 
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
