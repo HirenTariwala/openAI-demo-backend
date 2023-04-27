@@ -1,4 +1,4 @@
-const { openai } = require("../../config/index");
+const { openai } = require("../../config/OpenAI");
 
 const textGenerator = async (req, res, next) => {
   const { prompt } = req.body;

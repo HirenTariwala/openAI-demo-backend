@@ -1,4 +1,4 @@
-const {openai} = require('../../config/index')
+const {openai} = require('../../config/OpenAI')
 
 const imageGenerator = async (req,res,next) => {
     const { prompt, no_of_images, size } = req.body
